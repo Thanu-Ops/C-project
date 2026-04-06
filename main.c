@@ -2,12 +2,12 @@
 
 // Function declarations (VERY IMPORTANT)
 void big3();
-void factorial();
+void fact();
 void palindrome();
 
 int main0() {
     big3();
-    factorial();
+    fact();
     palindrome();
     return 0;
 }
