@@ -5,7 +5,7 @@ void big3();
 void fact();
 void palindrome();
 
-int main0() {
+int main() {
     big3();
     fact();
     palindrome();
