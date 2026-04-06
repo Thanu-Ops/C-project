@@ -1,12 +1,12 @@
 all: main
 
-main: main.o biggest3.o factorial.o palindrome.o
-	gcc -o main main.o biggest3.o factorial.o palindrome.o
+main: main.o big3.o factorial.o palindrome.o
+	gcc -o main main.o big3.o factorial.o palindrome.o
 
 main.o: main.c
 	gcc -c main.c
 
-biggest3.o: biggest3.c
+big3.o: big3.c
 	gcc -c biggest3.c
 
 factorial.o: factorial.c

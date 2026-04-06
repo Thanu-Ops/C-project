@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 // Function declarations (VERY IMPORTANT)
-void biggest3();
+void big3();
 void factorial();
 void palindrome();
 
-int main() {
-    biggest3();
+int main0() {
+    big3();
     factorial();
     palindrome();
     return 0;

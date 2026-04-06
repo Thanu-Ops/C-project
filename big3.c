@@ -1,5 +1,5 @@
 #include <stdio.h>
-void biggest3()
+void big3()
 {
     int c = 10, b = 22, a = 9;
 
