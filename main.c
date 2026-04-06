@@ -1,7 +1,13 @@
-main () {
-	biggest3 () ;
+#include <stdio.h>
 
-	factorial () ;
+// Function declarations (VERY IMPORTANT)
+void biggest3();
+void factorial();
+void palindrome();
 
-	palindrome() ;
+int main() {
+    biggest3();
+    factorial();
+    palindrome();
+    return 0;
 }

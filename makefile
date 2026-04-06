@@ -1,13 +1,16 @@
-ABC.exe:main.o big3.o fact.o palindrome.o
-	gcc -o ABC.exe main.o big3.o fact.o palindrome.o
+all: main
 
-main.o:main.c
+main: main.o biggest3.o factorial.o palindrome.o
+	gcc -o main main.o biggest3.o factorial.o palindrome.o
+
+main.o: main.c
 	gcc -c main.c
 
-big3.o:big3.c
-	gcc -c big3.c
+biggest3.o: biggest3.c
+	gcc -c biggest3.c
 
-fact.o:fact.c
-	gcc -c fact.c
-palindrome.o:palindrome.c
+factorial.o: factorial.c
+	gcc -c factorial.c
+
+palindrome.o: palindrome.c
 	gcc -c palindrome.c
