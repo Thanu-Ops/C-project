@@ -1,7 +1,7 @@
 #include <stdio.h>
 void fact() {
     int n, i;
-    unsigned long long fact = 1;
+    unsigned long long fac = 1;
     printf("\nEnter an integer: ");
     scanf("%d", &n);
 
@@ -10,9 +10,9 @@ void fact() {
         printf("Error! Factorial of a negative number doesn't exist.");
     else {
         for (i = 1; i <= n; ++i) {
-            fact *= i;
+            fac *= i;
         }
-        printf("\nFactorial of %d = %llu\n\n", n, fact);
+        printf("\nFactorial of %d = %llu\n\n", n, fac);
     }
 
   //  return 0;
